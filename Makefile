@@ -6,7 +6,7 @@ CFLAGS   := -std=c99
 CXXFLAGS := -Wall -pedantic -std=c++11 -Wno-missing-braces
 LDFLAGS  := 
 LDLIBS   := -lsqlite3 -lcrypto -ljansson -lcurl
-CC       := gcc
+CC       := clang
 
 
 EXEC = blackbird
